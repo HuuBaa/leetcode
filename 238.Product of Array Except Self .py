@@ -7,7 +7,8 @@
 # Follow up:
 # Could you solve it with constant space complexity? (Note: The output array does not count as extra space for the purpose of space complexity analysis.)
 
-
+#第一次从左至右遍历，每个元素乘以它左边所有元素的积
+#第二次从右至左遍历，每个元素乘以它右边所有元素的积 
 class Solution(object):
     def productExceptSelf(self, nums):
         """
